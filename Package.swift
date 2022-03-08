@@ -7,6 +7,7 @@ let package = Package(
   products: [
     .library(
       name: "Validated",
+      type: .dynamic,
       targets: ["Validated"]
     ),
   ],
